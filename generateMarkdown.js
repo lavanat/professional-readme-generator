@@ -34,7 +34,7 @@ function renderLicenseSection(license,username) {
   const licenseLink = renderLicenseLink(license);
   const licenseText = `Copyright [2023] [${username}]
 
-  Licensed under the ${license} (the "License");
+  Licensed under the ${license} license (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at ${licenseLink}.
   
@@ -58,6 +58,8 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
   
+  ${badge}
+
   ## Description
   ${data.description}
   
@@ -83,10 +85,6 @@ function generateMarkdown(data) {
   
   ${licenseText}
   
-  ## Badges
-  
-  ${badge}
-  
   ## Contributing
   
   ${data.contributing}
@@ -97,7 +95,7 @@ function generateMarkdown(data) {
   
   ## Questions
 
-  If you have additional questions, feel free to reach me by going to my [GitHub](https://github.com/${data.username}) or by sending me an [email](${data.email}).
+  If you have additional questions, feel free to reach me by going to my [GitHub](https://github.com/${data.username}) or by sending me an email at ${data.email}.
 `;
 }
 
