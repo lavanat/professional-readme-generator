@@ -11,11 +11,11 @@ You can use this application to generate a professional README.
 
 ## Link to Video Walkthrough
 
-![Video Walkthrough](./assets/professional-readme-generator-video-walkthrough.mp4)
+[Video Walkthrough](https://drive.google.com/file/d/1g9P2P_Hw6hPuxElO6AO9ODkU-AVGp6Ik/view?usp=sharing)
 
 ## Link to Example Generated README
 
-![Test README](./assets/testREADME.md)
+[Test README](./assets/testREADME.md)
 
 ## Screenshot of Application
 ![Screenshot of generated README](./assets/README.png)
